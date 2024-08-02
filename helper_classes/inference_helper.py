@@ -1,4 +1,4 @@
-# from mpi4py import MPI
+from mpi4py import MPI
 
 import flamedisx as fd
 import numpy as np
