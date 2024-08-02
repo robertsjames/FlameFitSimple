@@ -1,0 +1,5 @@
+**/.ipynb_checkpoints/*
+**/resource_cache/*
+**/*.pkl
+**/.DS_Store
+**/__pycache__
