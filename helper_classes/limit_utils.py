@@ -23,8 +23,7 @@ def extend_dict_entry(dict_input, entry, extend_by):
     else:
         dict_input[entry].extend([extend_by])
 
-def get_median_sensitivity(signal_name, likelihood, directory, analysis,
-                           scaling_fn, sensitivity=False, asymptotic=False,
+def get_median_sensitivity(signal_name, likelihood, directory, analysis, scaling_fn,
                            return_pval_curves=False, inference_config=None):
     sys.path.append(analysis)
 
@@ -49,7 +48,7 @@ def get_median_sensitivity(signal_name, likelihood, directory, analysis,
                                         test_stat_dists_SB=None,
                                         test_stat_dists_B=ts_dists_b)
 
-    bands = intervals.get_bands(quantiles=[0], asymptotic=True)
+    bands, mus, pval_curves = intervals.get_bands(quantiles=[0], asymptotic=True)
 
     all_bands = dict()
     for mass in masses:
@@ -58,4 +57,7 @@ def get_median_sensitivity(signal_name, likelihood, directory, analysis,
         for k, v in these_bands.items():
             extend_dict_entry(all_bands, k, scaling_fn(v, signal_expected_mean[signal_model]))
 
-    return masses, all_bands
+    if return_pval_curves:
+        return masses, all_bands, mus, pval_curves
+    else:
+        return masses, all_bands
