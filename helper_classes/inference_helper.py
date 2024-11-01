@@ -5,14 +5,14 @@ import numpy as np
 import pickle as pkl
 
 class InferenceHelper():
-    def __init__(self, likelihood, background_sources, signal_sources):
-        self.likelihood = likelihood
+    def __init__(self, likelihood_container, background_sources, signal_sources):
+        self.likelihood_container = likelihood_container
         self.background_sources = background_sources
         self.signal_sources = signal_sources
 
-        self.expected_background_counts = {k: v for k, v in self.likelihood.expected_background_counts.items()
+        self.expected_background_counts = {k: v for k, v in self.likelihood_container.expected_background_counts.items()
                                   if k in self.background_sources}
-        self.gaussian_constraint_widths = {k: v for k, v in self.likelihood.gaussian_constraint_widths.items()
+        self.gaussian_constraint_widths = {k: v for k, v in self.likelihood_container.gaussian_constraint_widths.items()
                                   if k in self.background_sources}
 
     def build_ts_eval(self, background_sources, signal_sources, ntoys=None):
@@ -22,7 +22,7 @@ class InferenceHelper():
                                   background_source_names=background_sources,
                                   expected_background_counts=self.expected_background_counts,
                                   gaussian_constraint_widths=self.gaussian_constraint_widths,
-                                  likelihood=self.likelihood
+                                  likelihood_container=self.likelihood_container
                                   )
 
         return ts_eval
