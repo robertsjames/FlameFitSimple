@@ -23,12 +23,8 @@ def extend_dict_entry(dict_input, entry, extend_by):
     else:
         dict_input[entry].extend([extend_by])
 
-def get_median_sensitivity(signal_name, likelihood, directory, analysis, scaling_fn,
+def get_median_sensitivity(directory, scaling_fn, signal_name, signal_expected_mean,
                            return_pval_curves=False, inference_config=None):
-    sys.path.append(analysis)
-
-    signal_expected_mean = pkl.load(open(likelihood, 'rb')).expected_signal_counts
-
     if inference_config is not None:
         config = CasePreservingConfigParser(allow_no_value=True)
         config.read(inference_config)
