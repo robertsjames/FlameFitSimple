@@ -31,7 +31,8 @@ class BasicTemplateSource(fd.TemplateSource):
 
 if __name__ == "__main__":
     argParser = argparse.ArgumentParser()
-    argParser.add_argument('-c', '--config', help="paths to config files")
+    argParser.add_argument('-c', '--config', help="paths to likelihood config file")
+    argParser.add_argument('-t', '--templates', help="path to file containing templates")
     argParser.add_argument('-o', '--output', help="output filename")
     args = argParser.parse_args()
 
@@ -41,7 +42,7 @@ if __name__ == "__main__":
     config.read(os.path.join(os.path.dirname(__file__), args.config))
 
     ### Getting path information
-    templates_path = config.get('paths','templates_path')
+    templates_path = args.templates
     ###
 
     ### Getting exposure
@@ -88,5 +89,7 @@ if __name__ == "__main__":
                                                   expected_background_counts=expected_background_counts,
                                                   gaussian_constraint_widths=gaussian_constraint_widths)
 
-    pkl.dump(likelihood_container, open(f'{args.output}.pkl', 'wb'))
+    if not os.path.exists('likelihoods'):
+        os.makedirs('likelihoods')
+    pkl.dump(likelihood_container, open(f'likelihoods/{args.output}.pkl', 'wb'))
     ###
