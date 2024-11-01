@@ -16,7 +16,7 @@ class InferenceHelper():
                                   if k in self.background_sources}
 
     def build_ts_eval(self, background_sources, signal_sources, ntoys=None):
-        ts_eval = fd.TSEvaluation(test_statistic=fd.TestStatisticTMuTilde,
+        ts_eval = fd.TSEvaluation(test_statistic=fd.TestStatisticTMu,
                                   ntoys=ntoys,
                                   signal_source_names=signal_sources,
                                   background_source_names=background_sources,
