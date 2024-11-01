@@ -27,19 +27,12 @@ class InferenceHelper():
 
         return ts_eval
     
-    def run_routine_local(self,
-                          output_dir='.',
-                          num_toys=100,
-                          background_sources=None, signal_sources=None,
-                          mu_min=0.1, mu_max=25., n_mu=30):
+    def generate_toys(self, output_dir='.', num_toys=100,
+                    background_sources=None, signal_sources=None):
         if background_sources is None:
             background_sources = self.background_sources
         if signal_sources is None:
             signal_sources = self.signal_sources
-
-        mus_test_dict = dict()
-        for signal_source in signal_sources:
-            mus_test_dict[signal_source] = np.geomspace(mu_min, mu_max, n_mu)
 
         ts_eval_B_toys = self.build_ts_eval(background_sources, signal_sources,
                                             ntoys=num_toys)
@@ -50,7 +43,7 @@ class InferenceHelper():
         pkl.dump(toy_data_B, open(f'{output_dir}/toy_data_B.pkl', 'wb'))
         pkl.dump(constraint_extra_args_B, open(f'{output_dir}/constraint_extra_args_B.pkl', 'wb'))
 
-    def run_routine_batch(self,
+    def run_routine(self,
                           output_dir='.',
                           num_toys=100,
                           background_sources=None, signal_sources=None,

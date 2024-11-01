@@ -43,5 +43,5 @@ ntoys = int(config['inference_parameters']['ntoys'])
 
 inference_helper = InferenceHelper(likelihood_container, background_sources, signal_sources)
 
-inference_helper.run_routine_local(num_toys=ntoys, output_dir=args.output,
+inference_helper.run_routine(num_toys=ntoys, output_dir=args.output,
                                    mu_min=mu_min, mu_max=mu_max, n_mu=n_mu)

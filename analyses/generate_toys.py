@@ -1,6 +1,8 @@
 import argparse
 import pickle as pkl
 
+import os
+
 import sys
 sys.path.append('../helper_classes')
 from inference_helper import InferenceHelper
@@ -36,12 +38,11 @@ config.read(args.config)
 background_sources = list(config['background_sources'].keys())
 signal_sources = list(config['signal_sources'].keys())
 
-mu_min = float(config['inference_parameters']['mu_min'])
-mu_max = float(config['inference_parameters']['mu_max'])
-n_mu = int(config['inference_parameters']['n_mu'])
 ntoys = int(config['inference_parameters']['ntoys'])
 
 inference_helper = InferenceHelper(likelihood_container, background_sources, signal_sources)
 
-inference_helper.run_routine_batch(num_toys=ntoys, output_dir=args.output,
-                                   mu_min=mu_min, mu_max=mu_max, n_mu=n_mu)
+if not os.path.exists(args.output):
+        os.makedirs(args.output)
+
+inference_helper.generate_toys(num_toys=ntoys, output_dir=args.output)

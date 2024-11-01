@@ -22,4 +22,7 @@ export OMP_PROC_BIND=spread
 
 module load python
 conda activate flamedisx
-srun -c 2 --cpu-bind=cores python submit_batch.py -l wimp_sensitivity/SI_40t_140ty.pkl -f wimp_sensitivity -m simple_combined_likelihood -o SI_40t_140ty_output -c wimp_sensitivity/inference_configs/SI_WIMP.ini
+
+python3 generate_toys.py -l $1 -m $2 -c $3 -o $4
+
+srun -c 2 --cpu-bind=cores python submit_batch.py -l $1 -m $2 -c $3 -o $4
