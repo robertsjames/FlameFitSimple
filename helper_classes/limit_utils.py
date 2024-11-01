@@ -44,7 +44,7 @@ def get_median_sensitivity(directory, scaling_fn, signal_name, signal_expected_m
                                         test_stat_dists_SB=None,
                                         test_stat_dists_B=ts_dists_b)
 
-    bands, mus, pval_curves = intervals.get_bands(quantiles=[0], asymptotic=True)
+    bands, mus, pval_curves = intervals.get_bands(quantiles=[0, -1, 1, -2, 2], asymptotic=True)
 
     all_bands = dict()
     for mass in masses:
