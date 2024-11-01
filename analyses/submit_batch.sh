@@ -25,4 +25,4 @@ conda activate flamedisx
 
 python3 generate_toys.py -l $1 -m $2 -c $3 -o $4
 
-srun -c 2 --cpu-bind=cores python submit_batch.py -l $1 -m $2 -c $3 -o $4
+srun -c 2 --cpu-bind=cores python run_routine.py -l $1 -m $2 -c $3 -o $4
