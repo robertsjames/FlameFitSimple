@@ -47,7 +47,8 @@ class InferenceHelper():
                           output_dir='.',
                           num_toys=100,
                           background_sources=None, signal_sources=None,
-                          mu_min=0.1, mu_max=25., n_mu=30):
+                          mu_min=0.1, mu_max=25., n_mu=30,
+                          mode='sensitivity'):
         # Get parallelisation information
         comm = MPI.COMM_WORLD
         size = comm.Get_size()
@@ -67,16 +68,23 @@ class InferenceHelper():
         ts_eval_toys = self.build_ts_eval(background_sources, signal_sources,
                                           ntoys=num_toys_batch)
         
-        simulate_dict_B = pkl.load(open(f'{output_dir}/simulate_dict_B.pkl', 'rb'))
-        toy_data_B = pkl.load(open(f'{output_dir}/toy_data_B.pkl', 'rb'))
-        constraint_extra_args_B = pkl.load(open(f'{output_dir}/constraint_extra_args_B.pkl', 'rb'))
+        if mode == 'sensitivity':
+            simulate_dict_B = pkl.load(open(f'{output_dir}/simulate_dict_B.pkl', 'rb'))
+            toy_data_B = pkl.load(open(f'{output_dir}/toy_data_B.pkl', 'rb'))
+            constraint_extra_args_B = pkl.load(open(f'{output_dir}/constraint_extra_args_B.pkl', 'rb'))
+        elif mode == 'discovery':
+            simulate_dict_B = None
+            toy_data_B = None
+            constraint_extra_args_B = None
+        else:
+            raise RuntimeError(f'Unsupported mode: {mode}. Options are "sensitivity", "discovery".')
 
-        ts_dists_b = ts_eval_toys.run_routine(mus_test=mus_test_dict,
+        pvals_dists = ts_eval_toys.run_routine(mus_test=mus_test_dict,
                                               simulate_dict_B=simulate_dict_B,
                                               toy_data_B=toy_data_B,
                                               constraint_extra_args_B=constraint_extra_args_B,
-                                              asymptotic_sensitivity=True,
-                                              toy_batch=rank)
+                                              toy_batch=rank,
+                                              mode=mode)
 
-        pkl.dump(ts_dists_b,
-                 open(f'{output_dir}/ts_dists_b_{rank}.pkl', 'wb'))
+        pkl.dump(pvals_dists,
+                open(f'{output_dir}/pval_dists_{rank}.pkl', 'wb'))

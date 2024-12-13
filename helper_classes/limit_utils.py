@@ -6,8 +6,6 @@ import flamedisx as fd
 import pandas as pd
 import pickle as pkl
 
-import sys
-
 import configparser
 
 class CasePreservingConfigParser(configparser.ConfigParser):
@@ -23,8 +21,8 @@ def extend_dict_entry(dict_input, entry, extend_by):
     else:
         dict_input[entry].extend([extend_by])
 
-def get_median_sensitivity(directory, scaling_fn, signal_name, signal_expected_mean,
-                           return_pval_curves=False, inference_config=None):
+def get_sensitivity_bands(directory, scaling_fn, signal_name, signal_expected_mean,
+                          return_pval_curves=False, inference_config=None):
     if inference_config is not None:
         config = CasePreservingConfigParser(allow_no_value=True)
         config.read(inference_config)
@@ -37,14 +35,12 @@ def get_median_sensitivity(directory, scaling_fn, signal_name, signal_expected_m
         masses.append(int(signal_source.replace(signal_name, '')))
     masses.sort()
     
-    ts_dists_b = pkl.load(open(f'{directory}/test_stat_dists_b.pkl', 'rb'))
+    pval_dists = pkl.load(open(f'{directory}/p_value_dists.pkl', 'rb'))
 
     intervals = fd.IntervalCalculator(signal_source_names=signal_source_names,
-                                        observed_test_stats=None,
-                                        test_stat_dists_SB=None,
-                                        test_stat_dists_B=ts_dists_b)
+                                      pval_dists=pval_dists)
 
-    bands, mus, pval_curves = intervals.get_bands(quantiles=[0, -1, 1, -2, 2], asymptotic=True)
+    bands, mus, pval_curves = intervals.get_bands_sensitivity(quantiles=[0, -1, 1, -2, 2])
 
     all_bands = dict()
     for mass in masses:
