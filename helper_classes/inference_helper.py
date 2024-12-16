@@ -80,11 +80,11 @@ class InferenceHelper():
             raise RuntimeError(f'Unsupported mode: {mode}. Options are "sensitivity", "discovery".')
 
         pvals_dists = ts_eval_toys.run_routine(mus_test=mus_test_dict,
-                                              simulate_dict_B=simulate_dict_B,
-                                              toy_data_B=toy_data_B,
-                                              constraint_extra_args_B=constraint_extra_args_B,
-                                              toy_batch=rank,
-                                              mode=mode)
+                                               simulate_dict_B=simulate_dict_B,
+                                               toy_data_B=toy_data_B,
+                                               constraint_extra_args_B=constraint_extra_args_B,
+                                               toy_batch=rank,
+                                               mode=mode)
 
         pkl.dump(pvals_dists,
                 open(f'{output_dir}/pval_dists_{rank}.pkl', 'wb'))

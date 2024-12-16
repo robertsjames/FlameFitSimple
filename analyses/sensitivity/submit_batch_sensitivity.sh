@@ -23,6 +23,6 @@ export OMP_PROC_BIND=spread
 module load python
 conda activate flamedisx
 
-python3 generate_toys.py -l $1 -m $2 -c $3 -o $4
+python3 generate_toys_sensitivity.py -l $1 -c $2 -o $3
 
-srun -c 2 --cpu-bind=cores python run_routine.py -l $1 -m $2 -c $3 -o $4
+srun -c 2 --cpu-bind=cores python run_routine_sensitivity.py -l $1 -c $2 -o $3

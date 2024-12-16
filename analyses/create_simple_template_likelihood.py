@@ -37,9 +37,8 @@ if __name__ == "__main__":
     args = argParser.parse_args()
 
     assert os.path.isfile(args.config), f'Could not find config file: {args.config}'
-
     config = CasePreservingConfigParser()
-    config.read(os.path.join(os.path.dirname(__file__), args.config))
+    config.read(args.config)
 
     ### Getting path information
     templates_path = args.templates
