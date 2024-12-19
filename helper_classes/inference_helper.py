@@ -44,11 +44,11 @@ class InferenceHelper():
         pkl.dump(constraint_extra_args_B, open(f'{output_dir}/constraint_extra_args_B.pkl', 'wb'))
 
     def run_routine(self,
-                          output_dir='.',
-                          num_toys=100,
-                          background_sources=None, signal_sources=None,
-                          mu_min=0.1, mu_max=25., n_mu=30,
-                          mode='sensitivity'):
+                    output_dir='.',
+                    num_toys=100,
+                    background_sources=None, signal_sources=None,
+                    mu_min=0.1, mu_max=25., n_mu=30,
+                    mode='sensitivity'):
         # Get parallelisation information
         comm = MPI.COMM_WORLD
         size = comm.Get_size()
