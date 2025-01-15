@@ -69,10 +69,13 @@ if __name__ == "__main__":
     for signal, signal_template in config['signal_source_template_components'].items():
         mh, norm = tp.retrieve_template(templates_path=templates_path, source_name=signal_template,
                                         background=False)
-        templates[signal] = mh
-
+        templates[signal] = mh 
+        """
+        #mh is basically a matrix which has cS1 as rows and log10_cS2 has cols and each value in the matrix is the number of "events" which has the corresponding (cS1,log10_cS2) number of PE for the given position in the matrix.This value of the #events is both normalised (wrt total counts, i.e sum of number of events) and scaled (wrt that mu parameter which get's simulated in the bg generation step )
+        then after the first scalling and normalisation it's again getting normalised wrt bin volume(area/size of each bin in this case) to finally output mh.mh itself is a matrix obviously. 
+        """
         expected_signal_counts[signal] = norm * exposure_ty
-    ###
+    
 
     ### Constructing and pickling likelihood container
     sources = dict()
@@ -80,7 +83,7 @@ if __name__ == "__main__":
     for sname, template in templates.items():
         sources[sname] = BasicTemplateSource
         arguments[sname] = {'template': template}
-
+   
     log_constraint = BasicLogConstraintFn(gaussian_constraint_widths)
 
     likelihood_container = fd.LikelihoodContainer(sources=sources, arguments=arguments,

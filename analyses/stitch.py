@@ -31,7 +31,8 @@ def combine_ts_dists_collections(file_list):
         for dists in dists_array:
             for mu, dist in dists.ts_dists.items():
                 extend_dict_entry(combine_me, mu, dist)
-
+        #print(f"Source: {source}")
+        #print(f"combine_me keys (mu values) for this source: {list(combine_me.keys())}")
         combined = fd.TestStatisticDistributions()
         for mu, combine in combine_me.items():
             combined.add_ts_dist(mu, np.concatenate(combine, axis=0))
@@ -39,7 +40,7 @@ def combine_ts_dists_collections(file_list):
         test_stat_dists_collection[source] = combined
     
     return test_stat_dists_collection
-
+#print("The keys of the dict containing the mus for specific masses", combine_me.keys()) 
 path_b = f'{args.directory}/ts_dists_b_*.pkl'
 files_b = glob.glob(path_b)
 

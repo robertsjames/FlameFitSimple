@@ -34,9 +34,9 @@ def get_median_sensitivity(directory, scaling_fn, signal_name, signal_expected_m
 
     masses = []
     for signal_source in signal_source_names:
-        masses.append(int(signal_source.replace(signal_name, '')))
+        masses.append((signal_source.replace(signal_name, '')))
     masses.sort()
-    
+    print('masses from get sensitivity fn', masses)
     ts_dists_b = pkl.load(open(f'{directory}/test_stat_dists_b.pkl', 'rb'))
 
     intervals = fd.IntervalCalculator(signal_source_names=signal_source_names,

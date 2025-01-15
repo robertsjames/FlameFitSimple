@@ -46,8 +46,9 @@ class InferenceHelper():
     def run_routine(self,
                           output_dir='.',
                           num_toys=100,
-                          background_sources=None, signal_sources=None,
-                          mu_min=0.1, mu_max=25., n_mu=30):
+                          background_sources=None, signal_sources=None, 
+                          mus_test_dict_1=None,
+                          n_mu=30):
         # Get parallelisation information
         comm = MPI.COMM_WORLD
         size = comm.Get_size()
@@ -60,9 +61,11 @@ class InferenceHelper():
         if signal_sources is None:
             signal_sources = self.signal_sources
 
-        mus_test_dict = dict()
-        for signal_source in signal_sources:
+        mus_test_dict = dict() # This dict stores the mass and the entire mu_min to mu_max range defined over geomspace startinf from mu_min all the way to mu_max
+        for signal_source, (mu_min, mu_max) in mus_test_dict_1.items():
+            #print(f"Processing signal source '{signal_source}' with mu range [{mu_min}, {mu_max}]")
             mus_test_dict[signal_source] = np.geomspace(mu_min, mu_max, n_mu)
+        #print("The mass and corresponding mu range is ", mus_test_dict)
 
         ts_eval_toys = self.build_ts_eval(background_sources, signal_sources,
                                           ntoys=num_toys_batch)
@@ -76,7 +79,7 @@ class InferenceHelper():
                                               toy_data_B=toy_data_B,
                                               constraint_extra_args_B=constraint_extra_args_B,
                                               asymptotic_sensitivity=True,
-                                              toy_batch=rank)
+                                              toy_batch=rank) 
 
         pkl.dump(ts_dists_b,
                  open(f'{output_dir}/ts_dists_b_{rank}.pkl', 'wb'))
