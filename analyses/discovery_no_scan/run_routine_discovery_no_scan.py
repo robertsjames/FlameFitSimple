@@ -17,6 +17,7 @@ class CasePreservingConfigParser(configparser.ConfigParser):
 
 argParser = argparse.ArgumentParser()
 argParser.add_argument("-l", "--likelihood", help="path to likelihood container file")
+argParser.add_argument("-e", "--exposure", help="exposure scaling factor [ty]")
 argParser.add_argument("-c", "--config", help="paths to inference config file")
 argParser.add_argument("-o", "--output", help="output directory")
 
@@ -31,6 +32,17 @@ try:
     likelihood_container = pkl.load(open(args.likelihood, 'rb'))
 except Exception:
     raise RuntimeError("Error opening likelihood container file")
+
+exposure_scaling = float(args.exposure)
+for signal_source in likelihood_container.expected_signal_counts:
+     likelihood_container.expected_signal_counts[signal_source] = \
+        likelihood_container.expected_signal_counts[signal_source] * exposure_scaling
+for background_source in likelihood_container.expected_background_counts:
+    likelihood_container.expected_background_counts[background_source] = \
+        likelihood_container.expected_background_counts[background_source] * exposure_scaling
+    if background_source in likelihood_container.gaussian_constraint_widths:
+         likelihood_container.gaussian_constraint_widths[background_source] = \
+            likelihood_container.gaussian_constraint_widths[background_source] * exposure_scaling
 
 assert os.path.isfile(args.config), f'Could not find config file: {args.config}'
 config = CasePreservingConfigParser(allow_no_value=True)
