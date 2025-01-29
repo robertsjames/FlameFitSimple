@@ -15,8 +15,15 @@ class InferenceHelper():
         self.gaussian_constraint_widths = {k: v for k, v in self.likelihood_container.gaussian_constraint_widths.items()
                                   if k in self.background_sources}
 
-    def build_ts_eval(self, background_sources, signal_sources, ntoys=None):
-        ts_eval = fd.TSEvaluation(test_statistic=fd.TestStatisticTMu,
+    def build_ts_eval(self, background_sources, signal_sources, ntoys=None,
+                      mode='sensitivity'):
+        if mode == 'sensitivity':
+            test_statistic=fd.TestStatisticTMu
+        elif mode == 'discovery':
+            test_statistic=fd.TestStatisticQ0
+        else:
+            raise RuntimeError(f'Unsupported mode: {mode}. Options are "sensitivity", "discovery".')
+        ts_eval = fd.TSEvaluation(test_statistic=test_statistic,
                                   ntoys=ntoys,
                                   signal_source_names=signal_sources,
                                   background_source_names=background_sources,
@@ -66,7 +73,7 @@ class InferenceHelper():
             mus_test_dict[signal_source] = np.geomspace(mu_min, mu_max, n_mu)
 
         ts_eval_toys = self.build_ts_eval(background_sources, signal_sources,
-                                          ntoys=num_toys_batch)
+                                          ntoys=num_toys_batch, mode=mode)
         
         if mode == 'sensitivity':
             simulate_dict_B = pkl.load(open(f'{output_dir}/simulate_dict_B.pkl', 'rb'))
@@ -79,12 +86,16 @@ class InferenceHelper():
         else:
             raise RuntimeError(f'Unsupported mode: {mode}. Options are "sensitivity", "discovery".')
 
-        pvals_dists = ts_eval_toys.run_routine(mus_test=mus_test_dict,
-                                               simulate_dict_B=simulate_dict_B,
-                                               toy_data_B=toy_data_B,
-                                               constraint_extra_args_B=constraint_extra_args_B,
-                                               toy_batch=rank,
-                                               mode=mode)
+        stat_dists = ts_eval_toys.run_routine(mus_test=mus_test_dict,
+                                              simulate_dict_B=simulate_dict_B,
+                                              toy_data_B=toy_data_B,
+                                              constraint_extra_args_B=constraint_extra_args_B,
+                                              toy_batch=rank,
+                                              mode=mode)
 
-        pkl.dump(pvals_dists,
+        if mode == 'sensitivity':
+            pkl.dump(stat_dists,
                 open(f'{output_dir}/pval_dists_{rank}.pkl', 'wb'))
+        elif mode == 'discovery':
+            pkl.dump(stat_dists,
+                open(f'{output_dir}/disco_sigs_{rank}.pkl', 'wb'))

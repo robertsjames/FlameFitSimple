@@ -38,7 +38,7 @@ def get_sensitivity_bands(directory, scaling_fn, signal_name, signal_expected_me
     pval_dists = pkl.load(open(f'{directory}/p_value_dists.pkl', 'rb'))
 
     intervals = fd.IntervalCalculator(signal_source_names=signal_source_names,
-                                      pval_dists=pval_dists)
+                                      stat_dists=pval_dists)
 
     bands, mus, pval_curves = intervals.get_bands_sensitivity(quantiles=[0, -1, 1, -2, 2])
 
