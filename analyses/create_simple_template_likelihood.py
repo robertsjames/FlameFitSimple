@@ -74,7 +74,7 @@ if __name__ == "__main__":
         expected_signal_counts[signal] = norm * exposure_ty
 
         if signal in config['uncertainties'].keys():
-            signal_counts_uncertainties[signal] = config.getfloat('uncertainties', background) * expected_signal_counts[signal]
+            signal_counts_uncertainties[signal] = config.getfloat('uncertainties', signal) * expected_signal_counts[signal]
     ###
 
     ### Constructing and pickling likelihood container
