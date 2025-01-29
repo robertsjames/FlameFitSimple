@@ -65,12 +65,16 @@ if __name__ == "__main__":
             gaussian_constraint_widths[background] = config.getfloat('uncertainties', background) * expected_background_counts[background]
 
     expected_signal_counts = dict()
+    signal_counts_uncertainties = dict()
     for signal, signal_template in config['signal_source_template_components'].items():
         mh, norm = tp.retrieve_template(templates_path=templates_path, source_name=signal_template,
                                         background=False)
         templates[signal] = mh
 
         expected_signal_counts[signal] = norm * exposure_ty
+
+        if signal in config['uncertainties'].keys():
+            signal_counts_uncertainties[signal] = config.getfloat('uncertainties', background) * expected_signal_counts[signal]
     ###
 
     ### Constructing and pickling likelihood container
@@ -86,7 +90,8 @@ if __name__ == "__main__":
                                                   batch_size=12000, log_constraint=log_constraint,
                                                   expected_signal_counts=expected_signal_counts,
                                                   expected_background_counts=expected_background_counts,
-                                                  gaussian_constraint_widths=gaussian_constraint_widths)
+                                                  gaussian_constraint_widths=gaussian_constraint_widths,
+                                                  signal_counts_uncertainties=signal_counts_uncertainties)
 
     if not os.path.exists('likelihoods'):
         os.makedirs('likelihoods')

@@ -55,7 +55,7 @@ class InferenceHelper():
                     num_toys=100,
                     background_sources=None, signal_sources=None,
                     mu_min=0.1, mu_max=25., n_mu=30,
-                    mode='sensitivity'):
+                    mode='sensitivity', vary_signal_dict=None):
         # Get parallelisation information
         comm = MPI.COMM_WORLD
         size = comm.Get_size()
@@ -91,7 +91,7 @@ class InferenceHelper():
                                               toy_data_B=toy_data_B,
                                               constraint_extra_args_B=constraint_extra_args_B,
                                               toy_batch=rank,
-                                              mode=mode)
+                                              mode=mode, vary_signal_dict=vary_signal_dict)
 
         if mode == 'sensitivity':
             pkl.dump(stat_dists,
