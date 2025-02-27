@@ -1,0 +1,12 @@
+# A search for new physics in low-energy electron recoils from the first LZ exposure
+#https://arxiv.org/abs/2307.15753
+#LZ_SR1_Limit_WimpMigdal_SI
+0.5   7.65821e-38
+0.6   2.22331e-38
+0.7   9.92004e-39
+0.8   4.91135e-39
+0.9   2.77505e-39
+1.0   1.76781e-39
+1.5   3.81723e-40
+2.0   1.49257e-40
+

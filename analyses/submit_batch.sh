@@ -21,7 +21,8 @@ export OMP_PROC_BIND=spread
 
 
 module load python
-conda activate flamedisx
+conda init
+conda activate fire
 
 python3 generate_toys.py -l $1 -m $2 -c $3 -o $4
 

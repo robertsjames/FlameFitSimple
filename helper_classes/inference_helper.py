@@ -53,6 +53,7 @@ class InferenceHelper():
         comm = MPI.COMM_WORLD
         size = comm.Get_size()
         rank = comm.Get_rank()
+        print(f"Process {rank} is running on core {rank % 8}")
 
         num_toys_batch = int(np.floor(num_toys / size))
 
