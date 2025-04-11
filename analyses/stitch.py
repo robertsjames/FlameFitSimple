@@ -29,12 +29,12 @@ def combine_pval_dists_collections(file_list):
     for source, dists_array in pval_dists_collection_uncombined.items():
         combine_me = dict()
         for dists in dists_array:
-            for mu, dist in dists.pval_dists.items():
+            for mu, dist in dists.dists.items():
                 extend_dict_entry(combine_me, mu, dist)
 
-        combined = fd.pValDistributions()
+        combined = fd.statDistributions()
         for mu, combine in combine_me.items():
-            combined.add_pval_dist(mu, np.concatenate(combine, axis=0))
+            combined.add_dist(mu, np.concatenate(combine, axis=0))
 
         pval_dists_collection[source] = combined
     
