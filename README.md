@@ -1,13 +1,13 @@
 # Get set up:
 
-- Install flamedisx, and use the branch RJ-XLZD_simple.
+- Install [flamedisx](https://github.com/FlamTeam/flamedisx), and use the branch RJ-XLZD_simple.
 
-- Clone the FlameFitSimple repo
+- Clone the [FlameFitSimple](https://github.com/robertsjames/FlameFitSimple) repo.
 
 # Create the templates:
 Run [this notebook](https://github.com/robertsjames/FlameFitSimple/blob/main/analyses/wimp_sensitivity/XLZD_generate_templates.ipynb) to generate templates. 
 
-The way that the signal/background spectra are interfaced with is still a little 'legacy' and this should be better soon. Detector parameters are controlled either as keyword arguments, passed to the sources in the notebook, or in this detector config file. You can see the different geometry configurations defined here. The notebook saves the templates for a given set of detector parameters.
+The way that the signal/background spectra are interfaced with is still a little 'legacy' and this should be better soon. Detector parameters are controlled either as keyword arguments, passed to the sources in the notebook, or in this detector [config file](https://github.com/FlamTeam/flamedisx/blob/RJ-XLZD_simple/flamedisx/nest/config/xlzd.ini). You can see the different geometry configurations defined [here](https://github.com/FlamTeam/flamedisx/blob/RJ-XLZD_simple/flamedisx/xlzd/xlzd.py). The notebook saves the templates for a given set of detector parameters.
 
 # Creating the likelihood and running the inference:
 
@@ -16,7 +16,7 @@ Both of these tasks are run in [this submission script](https://github.com/rober
 If you have access to a batch system (SLURM), then from the analyses/wimp_sensitivity/ directory in FlameFitSimple, call the batch submission script:
 `source run_analysis.sh SI_40t_140ty.ini pdfs_WIMP_SI_40t_140ty.pkl SI_WIMP.ini SI_40t_140ty SLURM`
 
-The first argument points to the likelihood config, the second to the PDF templates we produced, the third to the inference config, the fourth is out output folder name, and the fifth tells it to use a SLURM system. This process does not have to run on SLURM so if you use another batch system, you can simply not include this fifth argument.
+The first argument points to the likelihood config, the second to the PDF templates we produced above, the third to the inference config, the fourth is out output folder name, and the fifth tells it to use a SLURM system. This process does not have to run on SLURM so if you use another batch system, you can simply not include this fifth argument.
 
 If you do not have access to a batch system, then you can run the scripts in run_analysis.sh separately to create the likelihood and run the inference. The likelihood is created by running create_simple_template_likelihood.py from the analyses directory. The likelihood is saved in `/analyses/wimp_sensitivity/likelihoods` as a pickle file. The inference is obtained by running `generate_toys_sensitivity.py` and `run_routine_sensitivity.py` from the `analyses/sensitivity/` directory.
 
