@@ -21,6 +21,6 @@ export OMP_PROC_BIND=spread
 
 
 module load python
-conda activate flamedisx
+conda activate flamedisx_test
 
 srun -c 2 --cpu-bind=cores $1
