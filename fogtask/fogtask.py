@@ -4,7 +4,7 @@ import yaml
 from importlib.resources import files
 import inference_interface as ii
 import pickle as pkl
-from flamedisx.xlzd import XLZDvERSource, XLZDPb214Source, XLZDKr85Source, XLZDXe124Source, XLZDXe136Source, XLZDvNROtherLNGSSource, XLZDWIMPSource, XLZDNeutronSource, XLZDvNRSolarSource
+from flamedisx.xlzd import XLZDvERSource, XLZDPb214Source, XLZDKr85Source, XLZDXe124Source, XLZDXe136Source, XLZDvNRSolarSource, XLZDvNROtherLNGSSource, XLZDWIMPSource, XLZDNeutronSource
 from tqdm import tqdm
 from multihist import Histdd
 from itertools import product as iterproduct
@@ -103,11 +103,12 @@ def generate_template_set(parameters, analysis_parameters, n_samples = int(1e7),
     fd_sources["Kr85"]    = XLZDKr85Source(activity_ppt = parameters["Kr85"],      **common_pass_parameters)
     fd_sources["Xe136"]   = XLZDXe136Source(                                       **common_pass_parameters)
     fd_sources["Xe124"]   = XLZDXe124Source(                                       **common_pass_parameters)
+    fd_sources["CEvNS_solar"] = XLZDvNRSolarSource(                                **common_pass_parameters)
     fd_sources["CEvNS_other_LNGS"] =XLZDvNROtherLNGSSource(                        **common_pass_parameters)
     fd_sources["neutrons"]= XLZDNeutronSource(                                     **common_pass_parameters)
-    fd_sources["B8"] = XLZDvNRSolarSource(                        **common_pass_parameters)
 
-    wimp_masses =  analysis_parameters["wimp_mass"]["value"]
+    fd_sources["WIMP"]= XLZDWIMPSource(wimp_mass = analysis_parameters["wimp_mass_benchmark"]["value"], **common_pass_parameters)    
+    wimp_masses =  analysis_parameters["wimp_mass"]["value"] 
     if type(wimp_masses) != list: 
         wimp_masses = [wimp_masses]
     for wimp_mass in wimp_masses:
@@ -155,6 +156,8 @@ def generate_template_set(parameters, analysis_parameters, n_samples = int(1e7),
     # Different normalisation procedure
     templates['neutrons'] = templates['neutrons'] / templates['neutrons'].n * mus['CEvNS_other_LNGS'] * parameters['neutron']
 
+    templates['WIMP'] = templates['WIMP'] * (analysis_parameters["wimp_cross-section_benchmark"]["value"] / 1e-45)
+
     for sname, template in templates.items():
         print(f'{sname}: {template.n}')
 
@@ -183,7 +186,7 @@ def generate_all_wimp_templates(
 
     if nominal_only:
         parameter_string = template_format_string.format(**parameters)
-        file_name = file_name_pattern.format(parameter_string=parameter_string)
+        file_name = file_name_pattern.format(version=version,parameter_string=parameter_string)
 
         generate_template_set(parameters=parameters,
                               analysis_parameters = analysis_parameters,
@@ -194,7 +197,7 @@ def generate_all_wimp_templates(
         for pars in product_dict(**ret_iter):
             parameters.update(pars)
             parameter_string = template_format_string.format(**parameters)
-            file_name = file_name_pattern.format(parameter_string=parameter_string)
+            file_name = file_name_pattern.format(version=version,parameter_string=parameter_string)
 
             generate_template_set(parameters=parameters,
                                   analysis_parameters = analysis_parameters,
