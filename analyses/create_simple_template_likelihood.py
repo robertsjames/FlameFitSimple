@@ -25,7 +25,7 @@ class CasePreservingConfigParser(configparser.ConfigParser):
 class BasicTemplateSource(fd.TemplateSource):
     def __init__(self, template, **kwargs):
         super().__init__(template, interpolate=False,
-                         axis_names=('cS1', 'log10_cS2'),
+                         axis_names=('cS1', 'log10_cS2', 'radius'),         #For 2D, remove the 'radius' argument
                          **kwargs)
 
 
@@ -52,9 +52,9 @@ if __name__ == "__main__":
     templates = dict()
 
     expected_background_counts = dict()
-    gaussian_constraint_widths = dict()
+    gaussian_constraint_widths = dict()         ## No. of counts x uncertainty of source i.e. std deviation
     for background, background_template in config['background_source_template_components'].items():
-        mh, norm = tp.retrieve_template(templates_path=templates_path, source_name=background_template,
+        mh, norm = tp.retrieve_template(templates_path=templates_path, source_name=background_template, ##mh is the normalised s1s2c spectra (from out benchmark templates script)                                                                                            ##norm is the number of data points
                                         background=True)
         templates[background] = mh
 
