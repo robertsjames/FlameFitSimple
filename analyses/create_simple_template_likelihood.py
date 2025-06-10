@@ -25,7 +25,7 @@ class CasePreservingConfigParser(configparser.ConfigParser):
 class BasicTemplateSource(fd.TemplateSource):
     def __init__(self, template, **kwargs):
         super().__init__(template, interpolate=False,
-                         axis_names=('cS1', 'log10_cS2', 'radius'),         #For 2D, remove the 'radius' argument
+                         axis_names=('cS1', 'log10_cS2'),         ###For 2D, remove the 'radius' argument
                          **kwargs)
 
 

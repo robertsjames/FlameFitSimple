@@ -76,7 +76,7 @@ parameters:
 # Backgrounds
 background_rates:
   Pb214:
-    value: 0.0079
+    value: 0.1
     unit: microBq/kg
     definition: concentration of Rn220 in detector
   Kr85:
@@ -84,7 +84,7 @@ background_rates:
     unit: ppt
     definition: concentration of Kr85 in LXe
   neutron:
-    value: 0.1
+    value: 2
     unit: events/events
     definition: relative rate of neutrons to CEvNS
 
