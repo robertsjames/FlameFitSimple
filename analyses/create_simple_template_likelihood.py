@@ -24,9 +24,20 @@ class CasePreservingConfigParser(configparser.ConfigParser):
 
 class BasicTemplateSource(fd.TemplateSource):
     def __init__(self, template, **kwargs):
-        super().__init__(template, interpolate=False,
-                         axis_names=('cS1', 'log10_cS2', 'rsq'),
-                         **kwargs)
+        if len(np.shape(template.histogram)) == 3:
+            super().__init__(template, interpolate=False,
+                            axis_names=('cS1', 'log10_cS2', 'rsq'),
+                            **kwargs)
+        elif len(np.shape(template.histogram)) == 2:
+            super().__init__(template, interpolate=False,
+                            axis_names=('cS1', 'log10_cS2'),
+                            **kwargs)
+        elif len(np.shape(template.histogram)) == 1:
+            super().__init__(template, interpolate=False,
+                            axis_names=('recoE',),
+                            **kwargs)
+        else:
+            raise RuntimeError('Not handling templates > 3D')
 
 
 if __name__ == "__main__":
