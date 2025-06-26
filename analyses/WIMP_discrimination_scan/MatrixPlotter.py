@@ -81,7 +81,7 @@ def create_text_box(fig, pos, text, rotation, fig_width, fig_height, frameon = T
 	ax_tmp.text(x_pos, y_pos, text,
 			 horizontalalignment = horizontalalignment,
 			 verticalalignment = verticalalignment,
-			 fontsize = fontsize, color = 'black',
+			 fontsize = fontsize, color = 'black', weight = 'bold',
 			 rotation = rotation,
 			 transform = ax_tmp.transAxes)
 
@@ -283,7 +283,7 @@ def plottone(data,
 #					   vmin = data.min(), vmax = data.max(), \
 					   vmin = vmin, vmax =vmax, \
 
-						  annot = True, fmt = fmt, annot_kws = {"size": annot_fontsize, "color": 'white'})
+						  annot = True, fmt = fmt, annot_kws = {"size": annot_fontsize, "color": 'k', "weight": 'bold'})
 
 
 	x_offset = x_heat
