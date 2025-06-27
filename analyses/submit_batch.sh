@@ -1,10 +1,10 @@
 #!/bin/bash
 #################
 #SBATCH -N 1 # number of nodes
-#SBATCH --ntasks-per-node=100 # tasks per node
-#SBATCH -C cpu # hardware architecture
-#SBATCH --time=01:00:00
-#SBATCH --qos=regular
+#SBATCH --ntasks-per-node=50 # tasks per node
+#SBATCH -C gpu # hardware architecture
+#SBATCH --time=05:00:00
+#SBATCH --qos=premium
 #SBATCH --job-name=submit_batch
 #SBATCH --license=project,projecta
 #SBATCH -L SCRATCH
