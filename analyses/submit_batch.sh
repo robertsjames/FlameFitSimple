@@ -4,7 +4,7 @@
 #SBATCH --ntasks-per-node=50 # tasks per node
 #SBATCH -C gpu # hardware architecture
 #SBATCH --time=05:00:00
-#SBATCH --qos=premium
+#SBATCH --qos=regular
 #SBATCH --job-name=submit_batch
 #SBATCH --license=project,projecta
 #SBATCH -L SCRATCH
