@@ -1,3 +1,6 @@
+module load python
+conda activate flamedisx
+
 ## SI WIMP
 cd SI_WIMP_sensitivity
 ## LNGS
@@ -29,7 +32,7 @@ source run_analysis.sh default_60t_1000ty.ini ../v2.0_nominal_ALP.pkl default.in
 cd ..
 
 ## HP
-cd ALP_sensitivity
+cd HP_sensitivity
 source run_analysis.sh default_60t_100ty.ini ../v2.0_nominal_HP.pkl default.ini HP_60t_100ty SLURM
 source run_analysis.sh default_60t_300ty.ini ../v2.0_nominal_HP.pkl default.ini HP_60t_300ty SLURM
 source run_analysis.sh default_60t_600ty.ini ../v2.0_nominal_HP.pkl default.ini HP_60t_600ty SLURM
