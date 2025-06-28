@@ -8,16 +8,16 @@ cd ..
 
 ## ALP
 cd ALP_sensitivity
-source run_analysis.sh default_60t_100ty.ini ../v1.0_nominal_ALP.pkl default.ini ALP_60t_600ty SLURM
-source run_analysis.sh default_60t_300ty.ini ../v1.0_nominal_ALP.pkl default.ini ALP_60t_600ty SLURM
-source run_analysis.sh default_60t_600ty.ini ../v1.0_nominal_ALP.pkl default.ini ALP_60t_600ty SLURM
-source run_analysis.sh default_60t_1000ty.ini ../v1.0_nominal_ALP.pkl default.ini ALP_60t_1000ty SLURM
+source run_analysis.sh default_60t_100ty.ini ../v2.0_nominal_ALP.pkl default.ini ALP_60t_600ty SLURM
+source run_analysis.sh default_60t_300ty.ini ../v2.0_nominal_ALP.pkl default.ini ALP_60t_600ty SLURM
+source run_analysis.sh default_60t_600ty.ini ../v2.0_nominal_ALP.pkl default.ini ALP_60t_600ty SLURM
+source run_analysis.sh default_60t_1000ty.ini ../v2.0_nominal_ALP.pkl default.ini ALP_60t_1000ty SLURM
 cd ..
 
 ## HP
 cd ALP_sensitivity
-source run_analysis.sh default_60t_100ty.ini ../v1.0_nominal_HP.pkl default.ini HP_60t_600ty SLURM
-source run_analysis.sh default_60t_300ty.ini ../v1.0_nominal_HP.pkl default.ini HP_60t_600ty SLURM
-source run_analysis.sh default_60t_600ty.ini ../v1.0_nominal_HP.pkl default.ini HP_60t_600ty SLURM
-source run_analysis.sh default_60t_1000ty.ini ../v1.0_nominal_HP.pkl default.ini HP_60t_1000ty SLURM
+source run_analysis.sh default_60t_100ty.ini ../v2.0_nominal_HP.pkl default.ini HP_60t_600ty SLURM
+source run_analysis.sh default_60t_300ty.ini ../v2.0_nominal_HP.pkl default.ini HP_60t_600ty SLURM
+source run_analysis.sh default_60t_600ty.ini ../v2.0_nominal_HP.pkl default.ini HP_60t_600ty SLURM
+source run_analysis.sh default_60t_1000ty.ini ../v2.0_nominal_HP.pkl default.ini HP_60t_1000ty SLURM
 cd ..
