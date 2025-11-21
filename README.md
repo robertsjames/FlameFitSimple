@@ -1,4 +1,4 @@
-This directory allows us to run the WIMP Sensitivity studies for XLZD. The first section outlines how we run the WIMP sensitivity study. The second section outlines the benchmark discovery studies. This is split into two parts: The first describes how we find the exposure required for a 5.2 σ discovery. The second describes how we find the corresponding WIMP sensitivity.
+This directory allows us to run the WIMP Sensitivity studies for XLZD. The first section outlines how we run the WIMP sensitivity study. The second section outlines the benchmark discovery studies. This is split into two parts: The first describes how we find the exposure required for a 5 σ discovery. The second describes how we find the corresponding WIMP sensitivity.
 
 # Get set up:
 
@@ -44,7 +44,7 @@ For this example, run [this notebook](https://github.com/robertsjames/FlameFitSi
 The benchmark studies comprise of two sections.
 <br/>
 
-## 5.2 σ Discovery Exposure
+## 5 σ Discovery Exposure
 ### Create the templates:
 Run [this notebook](https://github.com/robertsjames/FlameFitSimple/blob/main/analyses/WIMP_discovery/benchmark_templates.ipynb) to generate templates. Templates are generated in the same way as for the sensitivity study.
 
@@ -57,7 +57,7 @@ Call the script using:
 
 Once the code has run, there is no need to stitch together the outputs.
 
-### Obtain your 5.2 σ Discovery Exposure:
+### Obtain your 5 σ Discovery Exposure:
 
 Run [this notebook](https://github.com/robertsjames/FlameFitSimple/blob/main/analyses/WIMP_discovery/get_results.ipynb). The black lines show the median discovery potential at the exposures listed in the [shell script](https://github.com/robertsjames/FlameFitSimple/blob/main/analyses/WIMP_discovery/run_analysis_benchmark.sh).
 
