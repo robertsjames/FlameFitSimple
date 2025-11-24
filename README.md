@@ -72,7 +72,7 @@ Run [this notebook](https://github.com/robertsjames/FlameFitSimple/blob/main/ana
 
 ### Update the Config
 
-Update the [likelihood config](https://github.com/robertsjames/FlameFitSimple/blob/main/analyses/wimp_sensitivity/likelihood_configs/SI_60t_benchmark.ini) with the exposure obtained from the 5.2 σ discovery exposure study.
+Update the [likelihood config](https://github.com/robertsjames/FlameFitSimple/blob/main/analyses/wimp_sensitivity/likelihood_configs/SI_60t_benchmark.ini) with the exposure obtained from the 5 σ discovery exposure study.
 
 ### Creating the likelihood and running the inference:
 
