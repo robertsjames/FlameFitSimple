@@ -20,7 +20,7 @@ export OMP_PLACES=cores
 export OMP_PROC_BIND=spread
 
 
-module load python
-conda activate flamedisx_test
+# module load python
+# conda activate flamedisx_test
 
 srun -c 2 --cpu-bind=cores $1

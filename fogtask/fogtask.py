@@ -141,11 +141,20 @@ def generate_template_set(mode, signal_type, parameters, analysis_parameters, n_
     masses =  analysis_parameters["mass"]["value"]
     if type(masses) != list:
         masses = [masses]
+    # for mass in masses:
+    #     signal_dict = {signal_parameter: mass}
+    #     fd_sources[f'{signal_type}{mass:.0f}']= signal_source(**signal_dict, **common_pass_parameters)
+    # if mode == 'LENR':
+    #     fd_sources["WIMP"]= XLZDWIMPSource(wimp_mass = analysis_parameters["wimp_mass_benchmark"]["value"], **common_pass_parameters)
+
     for mass in masses:
         signal_dict = {signal_parameter: mass}
         fd_sources[f'{signal_type}{mass:.0f}']= signal_source(**signal_dict, **common_pass_parameters)
-    if mode == 'LENR':
-        fd_sources["WIMP"]= XLZDWIMPSource(wimp_mass = analysis_parameters["wimp_mass_benchmark"]["value"], **common_pass_parameters)
+
+        ## If this don't work, try:
+        #fd_sources[f'{signal_type}{mass:.0f}']= XLZDWIMPSource(wimp_mass = analysis_parameters["mass"]["value"], **common_pass_parameters)
+    # if mode == 'LENR':
+    #     fd_sources["WIMP"]= XLZDWIMPSource(wimp_mass = analysis_parameters["wimp_mass_benchmark"]["value"], **common_pass_parameters)
 
     if mode in ['LENR', 'HENR']:
         cs1_bins = np.linspace(analysis_parameters['cs1_range']['value'][0],

@@ -86,7 +86,7 @@ background_rates:
     unit: ppt
     definition: concentration of Kr85 in LXe
   neutron:
-    value: 0.5
+    value: 1.0
     unit: events/events
     definition: relative rate of neutrons to CEvNS
 
