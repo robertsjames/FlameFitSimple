@@ -133,13 +133,13 @@ wimp_analysis_parameters:
   mass: 
     value: 
       - 10
-
+      - 2827
     unit: GeV/c2
     definition: WIMP mass tested
-  wimp_mass_benchmark: 
-    value: 2827
-    unit: GeV/c2
-    definition: Benchmark WIMP mass
+  # wimp_mass_benchmark: 
+  #   value: 2827
+  #   unit: GeV/c2
+  #   definition: Benchmark WIMP mass
   wimp_cross-section_benchmark:
     value: 2.05e-47
     unit: cm^2

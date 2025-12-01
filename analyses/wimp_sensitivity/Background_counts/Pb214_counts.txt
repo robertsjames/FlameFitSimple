@@ -1,2 +1,0 @@
-P214 Background count [counts/ty]
-0.8492676
