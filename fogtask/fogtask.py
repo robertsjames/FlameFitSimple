@@ -72,7 +72,7 @@ def save_dict_to_ii(ret, file_name):
         )
 
 
-def generate_template_set(mode, signal_type, parameters, analysis_parameters, n_samples = int(1e7), file_name = None, use_radius = False):
+def generate_template_set(mode, inference_type, signal_type, parameters, analysis_parameters, n_samples = int(1e7), file_name = None, use_radius = False):
     """
     For a fixed set of parameters, generate all templates used in the XLZD flamefit template generation. If file_name is
     not None, store the templates both as pickle and inference_interface files
@@ -138,18 +138,31 @@ def generate_template_set(mode, signal_type, parameters, analysis_parameters, n_
     else:
         raise ValueError(f'Invalid signal type {signal_type}.')
     
-    masses =  analysis_parameters["mass"]["value"]
-    if type(masses) != list:
-        masses = [masses]
+    # masses =  analysis_parameters["mass"]["value"]
+    # if type(masses) != list:
+    #     masses = [masses]
+
     # for mass in masses:
     #     signal_dict = {signal_parameter: mass}
     #     fd_sources[f'{signal_type}{mass:.0f}']= signal_source(**signal_dict, **common_pass_parameters)
-    # if mode == 'LENR':
-    #     fd_sources["WIMP"]= XLZDWIMPSource(wimp_mass = analysis_parameters["wimp_mass_benchmark"]["value"], **common_pass_parameters)
+    if mode == 'LENR':
+        if inference_type == 'Discovery':
+            fd_sources["WIMP"]= XLZDWIMPSource(wimp_mass = analysis_parameters["wimp_mass_benchmark"]["value"], **common_pass_parameters)
 
-    for mass in masses:
-        signal_dict = {signal_parameter: mass}
-        fd_sources[f'{signal_type}{mass:.0f}']= signal_source(**signal_dict, **common_pass_parameters)
+        elif inference_type == 'Sensitivity':
+            masses =  analysis_parameters["mass"]["value"]
+            if type(masses) != list:
+                masses = [masses]
+
+                for mass in masses:
+                    signal_dict = {signal_parameter: mass}
+                    fd_sources[f'{signal_type}{mass:.0f}']= signal_source(**signal_dict, **common_pass_parameters)
+
+        else:
+            raise ValueError(f'Invalid inference type {inference_type}.')
+
+
+
 
 
     if mode in ['LENR', 'HENR']:
@@ -246,6 +259,7 @@ def generate_template_set(mode, signal_type, parameters, analysis_parameters, n_
 def generate_templates(
         mode = 'LENR',
         signal_type = 'WIMP',
+        inference_type = 'Discovery',
         version = default_version,
         n_samples = int(1e7),
         file_name_pattern = "{version}{parameter_string}",
@@ -269,7 +283,7 @@ def generate_templates(
         if isfile(file_name+".ii.h5") and skip_generated:
             pass
         else:
-            generate_template_set(mode=mode, signal_type=signal_type,
+            generate_template_set(mode=mode, signal_type=signal_type, inference_type=inference_type,
                               parameters=parameters,
                               analysis_parameters = analysis_parameters,
                               n_samples = n_samples,
@@ -288,7 +302,7 @@ def generate_templates(
             if isfile(file_name+".ii.h5") and skip_generated:
                 pass
             else:
-                generate_template_set(mode=mode, signal_type=signal_type,
+                generate_template_set(mode=mode, signal_type=signal_type, inference_type=inference_type,
                               parameters=parameters,
                               analysis_parameters = analysis_parameters,
                               n_samples = n_samples,
