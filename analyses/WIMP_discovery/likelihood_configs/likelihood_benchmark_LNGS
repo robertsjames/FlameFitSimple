@@ -12,7 +12,7 @@ CEvNS_other = CEvNS_other_LNGS
 CEvNS_solar = CEvNS_solar
 
 [signal_source_template_components]
-WIMP2827 = WIMP2827
+WIMP = WIMP
 
 [uncertainties]
 SolarER = 0.0464
