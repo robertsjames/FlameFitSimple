@@ -26,10 +26,13 @@ Detector parameters are set in the .yaml file [here](https://github.com/robertsj
 
 ### Creating the likelihood and running the inference:
 
-Create the likelihood and run the inference using the shell scripts. We have scripts for LNGS and SURF locations. The LNGS script is shown [here](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/WIMP_discovery/run_analysis_benchmark_LNGS.sh). A list of exposures to run over can be set. All of the arguments are defined in the script. This script is ran locally.
+Create the likelihood and run the inference using the shell scripts. We have scripts for LNGS and SURF locations. The LNGS script is shown [here](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/WIMP_discovery/run_analysis_benchmark_LNGS.sh). A list of exposures to run over can be set.
 
+This script is ran locally.
 Call the script using:
 `source run_analysis_benchmark_LNGS.sh`
+
+It is important that the likelihood and inference configs match and have all the necessary background and signal templates listed for the inference. These are found [here](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/WIMP_discovery/likelihood_configs/likelihood_benchmark_LNGs) and [here](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/WIMP_discovery/inference_configs/inference_config.ini). The number of toys to generate is set to 1000 as a default but can be easily changed.
 
 
 ### Obtain your 5 σ Discovery Exposure:
@@ -37,28 +40,7 @@ Call the script using:
 Run [this notebook](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/WIMP_discovery/get_results.ipynb). The black lines show the median discovery potential at the exposures given. Interpolation of the exposures allows us to find the exposure required for a 5 σ discovery of our benchmark WIMP.
 
 
-## Obtaining WIMP Sensitivity
-
-
-### Create the templates:
-Run [this notebook](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/wimp_sensitivity/benchmark_templates.ipynb) to generate templates.
-
-### Update the Config
-
-Update the [likelihood config](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/wimp_sensitivity/likelihood_configs/nominal_updated_LNGS.ini) with the exposure obtained from the 5 σ discovery exposure study. Make sure you have the correct detector location set (LNGS or SURF) for the inference and likelihood configs.
-
-### Creating the likelihood and running the inference:
-
-Create the likelihood and run the inference using [this shell submission script](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/wimp_sensitivity/run_analysis.sh).
-
-Using SLURM, or another batch system, then call the submission script:
-
-`source run_analysis.sh likelihood_benchmark_LNGS nominal_3D_values.pkl nominal.ini nominal_3D_LNGS SLURM`
-
-### Stitch the Outputs:
-
-From the `/analyses` directory in FlameFitSimple, call `python3 stitch.py -d wimp_sensitivity/outputs/nominal_3D_LNGS`
-where the argument `-d` specifies where the inference output was save
+## Obtaining Benchmark Sensitivity
 
 ### Obtain the Benchmark Sensitivity:
 
@@ -79,7 +61,7 @@ Both of these tasks are run in [this shell submission script](https://github.com
 If you have access to a batch system (SLURM), then from the analyses/wimp_sensitivity/ directory in FlameFitSimple, call the shell submission script:
 `source run_analysis.sh likelihood_benchmark_LNGS nominal_3D_values.pkl nominal.ini nominal_3D_LNGS SLURM`
 
-The first argument points to the likelihood config, the second to the PDF templates we produced above, the third to the inference config, the fourth is out output folder name, and the fifth tells it to use a SLURM system. This process does not have to run on SLURM so if you use another batch system, you can simply not include this fifth argument.
+The first argument points to the likelihood config [here](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/wimp_sensitivity/likelihood_configs/nominal_updated_LNGS), the second to the PDF templates we produced above, the third to the inference config [here](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/wimp_sensitivity/inference_configs/nominal_ini), the fourth is out output folder name, and the fifth tells it to use a SLURM system. This process does not have to run on SLURM so if you use another batch system, you can simply not include this fifth argument.
 
 Make sure the likelihood and inference configs are updated with the correct signal and background sources. The exposure is set in the likelihood config. 
 
@@ -96,3 +78,11 @@ For this example, run [this notebook](https://github.com/robertsjames/FlameFitSi
 
 <br/>
 <br/>
+
+## Obtaining Benchmark Sensitivity
+
+If you would like to obtain cross sections/sensitivites given our 5 σ discovery exposure, you can do so by following the steps in the WIMP Sensitivity study, but with the following changes:
+
+- If you wish to change the masses to find cross sections for, do so in the 'masses' section detector parameters .yaml file during template generation.
+- When setting the exposure for the inference ([here])(https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/wimp_sensitivity/likelihood_configs/nominal_updated_LNGS), set it to the exposure obtained from the 5 σ discovery study.
+- Run [this notebook](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/wimp_sensitivity/benchmark_sensitivity.ipynb) to obtain the WIMP-mass sensitivities.
