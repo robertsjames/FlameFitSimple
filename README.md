@@ -23,25 +23,21 @@ A .pkl and a .h5 file are produced when thetempates are produced. You should sav
 
 Detector parameters are set in the .yaml file [here](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/WIMP_discovery/detector_parameters/parameters_LENR_v1.0.yaml). The 'wimp_mass_benchmark' is given in the .yaml. By default, we have used mass 2827 GeV. The detector size/volume is set by 'lce_configuration'. The default we use is 60t.
 
-### Create the templates:
-Run [this notebook](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/WIMP_discovery/benchmark_templates.ipynb) to generate templates. Templates are generated in the same way as for the sensitivity study. You will want to make sure than your benchmark WIMP mass is written in the .yaml. By default, we have used mass 2827 GeV.
 
 ### Creating the likelihood and running the inference:
 
-Create the likelihood and run the inference using the shell scripts. We have scripts for LNGS and SURF locations. The LNGS script is shown [here](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/WIMP_discovery/run_analysis_benchmark_LNGS.sh). A list of exposures to run over can be set. All of the arguments are defined in the script. This script can be ran locally this time as opposed to using SLURM.
+Create the likelihood and run the inference using the shell scripts. We have scripts for LNGS and SURF locations. The LNGS script is shown [here](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/WIMP_discovery/run_analysis_benchmark_LNGS.sh). A list of exposures to run over can be set. All of the arguments are defined in the script. This script is ran locally.
 
 Call the script using:
 `source run_analysis_benchmark_LNGS.sh`
 
-Once the code has run, there is no need to stitch together the outputs.
 
 ### Obtain your 5 σ Discovery Exposure:
 
-Run [this notebook](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/WIMP_discovery/get_results.ipynb). The black lines show the median discovery potential at the exposures given.
+Run [this notebook](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/WIMP_discovery/get_results.ipynb). The black lines show the median discovery potential at the exposures given. Interpolation of the exposures allows us to find the exposure required for a 5 σ discovery of our benchmark WIMP.
 
 
 ## Obtaining WIMP Sensitivity
-
 
 
 ### Create the templates:
