@@ -2,7 +2,7 @@ This directory allows us to run the WIMP Sensitivity studies for XLZD. The first
 
 # Get set up:
 
-- Install [flamedisx](https://github.com/FlamTeam/flamedisx), and use the branch RJ-XLZD_simple.
+- Install [flamedisx](https://github.com/FlamTeam/flamedisx), and use the branch RM-XLZD.
 
 - Clone the [FlameFitSimple](https://github.com/robertsjames/FlameFitSimple) repo.
 
