@@ -1,5 +1,4 @@
 import numpy as np
-import scipy.stats as sps
 import yaml
 from importlib.resources import files
 import inference_interface as ii
