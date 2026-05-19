@@ -48,7 +48,7 @@ parameters:
     unit: bar
     definition: pressure of GXe
   n_pmts:
-    value: 902
+    value: 2132
     unit: number
     definition: number of PMTs
   p_dpe: 
@@ -72,7 +72,7 @@ parameters:
     unit: probability
     definition: TODO, NEST string unclear, actual efficiency, can be used in lieu of POD threshold
   lce_configuration:
-    value: 60t
+    value: 80t
     description: LCE parameterization from https://github.com/FlamTeam/flamedisx/blob/RJ-XLZD_simple/flamedisx/xlzd/xlzd.py
 
 # Backgrounds
@@ -86,7 +86,7 @@ background_rates:
     unit: ppt
     definition: concentration of Kr85 in LXe
   neutron:
-    value: 5.0
+    value: 0.3
     unit: events/events
     definition: relative rate of neutrons to CEvNS
 
@@ -115,9 +115,9 @@ wimp_analysis_parameters:
   rsq_range:
     value:
       - 0.
-      - 21542.900625
+      - 21025.
     unit: cm^2
-    definition: Lower and upper range of r^2. Maximum value of r is 146.775 cm. See https://github.com/FlamTeam/flamedisx/blob/RJ-XLZD_simple/flamedisx/nest/config/xlzd.ini
+    definition: Lower and upper range of r^2. Maximum value of r is 145 cm
   rsq_bins:
     value: 51
     unit: number of bin edges
