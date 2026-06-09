@@ -1,7 +1,6 @@
 import numpy as np
 import yaml
 from importlib.resources import files
-import inference_interface as ii
 import pickle as pkl
 from os.path import isfile
 
@@ -13,7 +12,6 @@ from flamedisx.xlzd  import XLZDALPGalacticDMSource, XLZDHiddenPhotonSource
 from tqdm import tqdm
 from multihist import Histdd
 from itertools import product as iterproduct
-from copy import deepcopy
 
 default_version = "v1.0"
 
@@ -39,19 +37,13 @@ def get_parameters(mode, version=default_version):
 def get_template_parameters(mode, version=default_version):
     parameters = get_parameters(mode, version)["parameters"]
     parameters.update(get_parameters(mode, version)["background_rates"])
-    ret_fix = dict()
-    ret_iter = dict()
+    # ret_fix = dict()
+    # ret_iter = dict()
     nominal_parameters = dict()
     template_format_string = ""
     for k,i in sorted(parameters.items()):
-        if "range" in i.keys():
-            ret_iter[k] = i["range"]
-            nominal_parameters[k] = i.get("nominal_value", i["value"])
-            template_format_string += '_'+k+"_{"+k+":"+i.get("format",".2f")+"}"
-        else:
-            ret_fix[k] = i["value"]
-            nominal_parameters[k] = i["value"]
-    return ret_fix, ret_iter, nominal_parameters, template_format_string 
+        nominal_parameters[k] = i["value"]
+    return nominal_parameters, template_format_string
 
 def save_dict_to_pickle(ret, file_name, signal_type="WIMP"):
     pdfs = [dict(), dict()]
@@ -62,13 +54,6 @@ def save_dict_to_pickle(ret, file_name, signal_type="WIMP"):
             pdfs[0][k] = h
     pkl.dump(pdfs, open(file_name, "wb"))
 
-def save_dict_to_ii(ret, file_name):
-    histogram_names = sorted(ret.keys())
-    ii.multihist_to_template(
-        [ret[k] for k in histogram_names], 
-        file_name, 
-        histogram_names = histogram_names, 
-        )
 
 
 def generate_template_set(mode, inference_type, signal_type, parameters, analysis_parameters, n_samples = int(1e7), file_name = None, use_radius = False):
@@ -137,13 +122,7 @@ def generate_template_set(mode, inference_type, signal_type, parameters, analysi
     else:
         raise ValueError(f'Invalid signal type {signal_type}.')
     
-    # masses =  analysis_parameters["mass"]["value"]
-    # if type(masses) != list:
-    #     masses = [masses]
 
-    # for mass in masses:
-    #     signal_dict = {signal_parameter: mass}
-    #     fd_sources[f'{signal_type}{mass:.0f}']= signal_source(**signal_dict, **common_pass_parameters)
     if mode == 'LENR':
         if inference_type == 'Discovery':
             fd_sources["WIMP"]= XLZDWIMPSource(wimp_mass = analysis_parameters["wimp_mass_benchmark"]["value"], **common_pass_parameters)
@@ -224,6 +203,7 @@ def generate_template_set(mode, inference_type, signal_type, parameters, analysi
             else:
                 hist = hist_2d
 
+
         elif mode == 'LEER':
             import matplotlib.pyplot as plt
             hist.add(data['ces_er_equivalent'].values)
@@ -238,6 +218,96 @@ def generate_template_set(mode, inference_type, signal_type, parameters, analysi
 
         templates[k] = hist
 
+    # for k, source in tqdm(fd_sources.items()):
+    #     data = source.simulate(n_samples)
+    #     # Prepare destination hist object handle
+    #     hist = None
+
+    #     if mode in ['LENR', 'HENR']:
+    #         # Extract columns
+    #         cS1 = data['cs1'].values
+    #         log10_cS2 = np.log10(data['cs2'].values)
+    #         rsq = (data['r'].values)**2
+
+    #         # Build and fill 2D histogram (cS1, log10_cS2)
+    #         hist_2d_args = dict(
+    #             bins=(cs1_bins, log10cs2_bins),
+    #             axis_names=['cS1', 'log10_cS2'],
+    #             # If supported: dtype=np.float32
+    #         )
+    #         hist_2d = Histdd(**hist_2d_args)
+    #         hist_2d.add(cS1, log10_cS2)
+
+    #         if use_radius is True:
+    #             # Build and fill 1D histogram over r^2
+    #             hist_1d_args = dict(
+    #                 bins=(rsq_bins,),
+    #                 axis_names=['rsq'],
+    #                 # If supported: dtype=np.float32
+    #             )
+    #             hist_1d = Histdd(**hist_1d_args)
+    #             hist_1d.add(rsq)
+
+    #             # Probability over rsq bins (R,)
+    #             if hist_1d.n > 0:
+    #                 scale = (hist_1d.histogram / hist_1d.n).astype(np.float32, copy=False)
+    #             else:
+    #                 scale = np.zeros_like(hist_1d.histogram, dtype=np.float32)
+
+    #             # Broadcast to (X, Y, R)
+    #             base2d = hist_2d.histogram.astype(np.float32, copy=False)
+    #             hist3d = base2d[..., None] * scale[None, None, :]  # (X, Y, R)
+
+    #             # Create 3D Histdd and assign data
+    #             hist = Histdd(
+    #                 bins=(cs1_bins, log10cs2_bins, rsq_bins),
+    #                 axis_names=['cS1', 'log10_cS2', 'rsq'],
+    #                 # dtype=np.float32
+    #             )
+    #             hist.histogram = hist3d
+
+    #             # Capture the count for normalization before discarding hist_2d
+    #             n_for_norm = float(hist_2d.n)
+
+    #             # Cleanup
+    #             del hist_1d, hist_2d, base2d, hist3d
+    #         else:
+    #             # No radius: keep the 2D histogram directly
+    #             hist = hist_2d
+    #             n_for_norm = float(hist.n)
+
+    #     elif mode == 'LEER':
+    #         import matplotlib.pyplot as plt
+    #         recoE = data['ces_er_equivalent'].values
+    #         hist_args = dict(
+    #             bins=(recoE_bins,),
+    #             axis_names=['recoE'],
+    #             # dtype=np.float32
+    #         )
+    #         hist = Histdd(**hist_args)
+    #         hist.add(recoE)
+
+    #         # Optional: avoid plotting in production runs
+    #         # plt.figure()
+    #         # hist.plot()
+    #         # plt.close()
+
+    #         n_for_norm = float(hist.n)
+    #     else:
+    #         raise ValueError(f'Invalid mode {mode}.')
+
+    #     # Now normalize and scale using mu without touching hist.n
+    #     mu = source.estimate_mu(n_trials=n_samples)
+    #     if n_for_norm > 0:
+    #         hist.histogram = mu * (hist.histogram / n_for_norm)
+    #     else:
+    #         # If no entries, keep zeros of the same shape
+    #         hist.histogram = np.zeros_like(hist.histogram, dtype=hist.histogram.dtype)
+
+    #     templates[k] = hist
+    #     del data
+
+
     # Different normalisation procedures
     if 'neutrons_LNGS' in templates:
         templates['neutrons_LNGS'] = templates['neutrons_LNGS'] / templates['neutrons_LNGS'].n * mus['CEvNS_other_LNGS'] * parameters['neutron']
@@ -251,7 +321,6 @@ def generate_template_set(mode, inference_type, signal_type, parameters, analysi
         fname = file_name.format(**parameters)
 
         save_dict_to_pickle(templates, fname + mode + "_" + ".pkl", signal_type)
-        save_dict_to_ii(templates, fname+".ii.h5")
 
     return templates
 
@@ -262,48 +331,24 @@ def generate_templates(
         version = default_version,
         n_samples = int(1e7),
         file_name_pattern = "{version}{parameter_string}",
-        nominal_only = True,
         use_radius = False,
-        skip_generated = True,
         ):
 
     all_parameters = get_parameters(mode=mode, version=version)
     analysis_parameters = all_parameters["wimp_analysis_parameters"]
 
-    ret_fix, ret_iter, nominal_parameters, template_format_string = get_template_parameters(mode=mode, version=version)
+    nominal_parameters, template_format_string = get_template_parameters(mode=mode, version=version)
 
-    parameters = deepcopy(nominal_parameters)
+    parameters = nominal_parameters
 
-    if nominal_only:
-        parameter_string = template_format_string.format(**parameters)
-        file_name = file_name_pattern.format(version=version, parameter_string=parameter_string)
+    parameter_string = template_format_string.format(**parameters)
+    file_name = file_name_pattern.format(version=version, parameter_string=parameter_string)
 
 
-        if isfile(file_name+".ii.h5") and skip_generated:
-            pass
-        else:
-            generate_template_set(mode=mode, signal_type=signal_type, inference_type=inference_type,
+    generate_template_set(mode=mode, signal_type=signal_type, inference_type=inference_type,
                               parameters=parameters,
                               analysis_parameters = analysis_parameters,
                               n_samples = n_samples,
                               file_name = file_name,
                               use_radius = use_radius)
-    else:
-        n_pars = 0
-        for p in  product_dict(**ret_iter):
-            n_pars +=1
-        for pars in tqdm(product_dict(**ret_iter), desc="Generating several templates", total=n_pars):
-            parameters.update(pars)
-            parameter_string = template_format_string.format(**parameters)
-            file_name = file_name_pattern.format(version=version, parameter_string=parameter_string)
 
-
-            if isfile(file_name+".ii.h5") and skip_generated:
-                pass
-            else:
-                generate_template_set(mode=mode, signal_type=signal_type, inference_type=inference_type,
-                              parameters=parameters,
-                              analysis_parameters = analysis_parameters,
-                              n_samples = n_samples,
-                              file_name = file_name,
-                              use_radius = use_radius)
