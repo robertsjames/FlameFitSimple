@@ -84,5 +84,5 @@ For this example, run [this notebook](https://github.com/robertsjames/FlameFitSi
 If you would like to obtain cross sections/sensitivites given our 5 σ discovery exposure, you can do so by following the steps in the WIMP Sensitivity study, but with the following changes:
 
 - If you wish to change the masses to find cross sections for, do so in the 'masses' section detector parameters .yaml file during template generation.
-- When setting the exposure for the inference ([here])(https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/wimp_sensitivity/likelihood_configs/nominal_updated_LNGS), set it to the exposure obtained from the 5 σ discovery study.
+- When setting the exposure for the inference [here](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/wimp_sensitivity/likelihood_configs/nominal_updated_LNGS.ini), set it to the exposure obtained from the 5 σ discovery study.
 - Run [this notebook](https://github.com/robertsjames/FlameFitSimple/blob/rm-backgrounds/analyses/wimp_sensitivity/benchmark_sensitivity.ipynb) to obtain the WIMP-mass sensitivities.
