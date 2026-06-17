@@ -1,7 +1,7 @@
-count=1.0
+count=0.1
 location=LNGS
 
-python3 ../create_simple_template_likelihood.py -c likelihood_configs/likelihood_benchmark_${location} -t background_templates/3D_neutrons_fixed/80t/${count}.pkl -o 3D_neutrons_fixed/80t/${count}_${location}
-for exposure in 550 600 650 700 750 800 850; do
-    python3 ../discovery_no_scan/run_routine_discovery_no_scan.py -l likelihoods/3D_neutrons_fixed/80t/${count}_${location}.pkl -e ${exposure} -c inference_configs/inference_config.ini -o outputs/3D_neutrons_fixed/80t/results/benchmark_${count}_${location}/60t_${exposure}ty
+python3 ../create_simple_template_likelihood.py -c likelihood_configs/likelihood_benchmark_${location} -t background_templates/accidentals/${count}_2827GeV.pkl -o accidentals/${count}_${location}_2827GeV
+for exposure in 350 400 450 500 550 600 650; do
+    python3 ../discovery_no_scan/run_routine_discovery_no_scan.py -l likelihoods/accidentals/${count}_${location}_2827GeV.pkl -e ${exposure} -c inference_configs/inference_config.ini -o outputs/accidentals/${count}_${location}_2827GeV/60t_${exposure}ty
 done

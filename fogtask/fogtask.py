@@ -12,6 +12,9 @@ from flamedisx.xlzd  import XLZDALPGalacticDMSource, XLZDHiddenPhotonSource
 from tqdm import tqdm
 from multihist import Histdd
 from itertools import product as iterproduct
+import gc
+
+# import matplotlib.pyplot as plt
 
 default_version = "v1.0"
 
@@ -132,9 +135,9 @@ def generate_template_set(mode, inference_type, signal_type, parameters, analysi
             if type(masses) != list:
                 masses = [masses]
 
-                for mass in masses:
-                    signal_dict = {signal_parameter: mass}
-                    fd_sources[f'{signal_type}{mass:.0f}']= signal_source(**signal_dict, **common_pass_parameters)
+            for mass in masses:
+                signal_dict = {signal_parameter: mass}
+                fd_sources[f'{signal_type}{mass:.0f}']= signal_source(**signal_dict, **common_pass_parameters)
 
         else:
             raise ValueError(f'Invalid inference type {inference_type}.')
@@ -184,6 +187,7 @@ def generate_template_set(mode, inference_type, signal_type, parameters, analysi
             log10_cS2 = np.log10(data['cs2'].values)
             rsq = (data['r'].values)**2
 
+
             hist_2d_args = dict(
                     bins = (cs1_bins, log10cs2_bins),
                     axis_names = ['cS1', 'log10_cS2'])
@@ -200,6 +204,7 @@ def generate_template_set(mode, inference_type, signal_type, parameters, analysi
 
                 hist.histogram = np.array([hist_2d.histogram * rsq_scaling for rsq_scaling in hist_1d.histogram])
                 hist.histogram = np.transpose(hist.histogram, [1, 2, 0])
+
             else:
                 hist = hist_2d
 
@@ -213,104 +218,58 @@ def generate_template_set(mode, inference_type, signal_type, parameters, analysi
         else:
             raise ValueError(f'Invalid mode {mode}.')
 
-        mus[k] = source.estimate_mu(n_trials = n_samples)
+        # print('made it here')
+        if k == "neutrons_LNGS":
+            mus[k] = 1.0
+        else:
+            mus[k] = source.estimate_mu(n_trials=n_samples)
+        # print(f"mus for={k}", mus[k])
         hist.histogram = mus[k] * (hist.histogram / hist.n)
+        # print(f"hist.n for={k}", hist.n)
 
         templates[k] = hist
 
-    # for k, source in tqdm(fd_sources.items()):
-    #     data = source.simulate(n_samples)
-    #     # Prepare destination hist object handle
-    #     hist = None
+        del data, cS1, log10_cS2, rsq
+        gc.collect()
 
-    #     if mode in ['LENR', 'HENR']:
-    #         # Extract columns
-    #         cS1 = data['cs1'].values
-    #         log10_cS2 = np.log10(data['cs2'].values)
-    #         rsq = (data['r'].values)**2
 
-    #         # Build and fill 2D histogram (cS1, log10_cS2)
-    #         hist_2d_args = dict(
-    #             bins=(cs1_bins, log10cs2_bins),
-    #             axis_names=['cS1', 'log10_cS2'],
-    #             # If supported: dtype=np.float32
-    #         )
-    #         hist_2d = Histdd(**hist_2d_args)
-    #         hist_2d.add(cS1, log10_cS2)
 
-    #         if use_radius is True:
-    #             # Build and fill 1D histogram over r^2
-    #             hist_1d_args = dict(
-    #                 bins=(rsq_bins,),
-    #                 axis_names=['rsq'],
-    #                 # If supported: dtype=np.float32
-    #             )
-    #             hist_1d = Histdd(**hist_1d_args)
-    #             hist_1d.add(rsq)
+    ### Adding in accidentals pdf
 
-    #             # Probability over rsq bins (R,)
-    #             if hist_1d.n > 0:
-    #                 scale = (hist_1d.histogram / hist_1d.n).astype(np.float32, copy=False)
-    #             else:
-    #                 scale = np.zeros_like(hist_1d.histogram, dtype=np.float32)
+    pdf = np.load('/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/python_notebooks/ac_example_template.npz')
 
-    #             # Broadcast to (X, Y, R)
-    #             base2d = hist_2d.histogram.astype(np.float32, copy=False)
-    #             hist3d = base2d[..., None] * scale[None, None, :]  # (X, Y, R)
+    accidentals_2d_hist = pdf["s1s2hist"]
 
-    #             # Create 3D Histdd and assign data
-    #             hist = Histdd(
-    #                 bins=(cs1_bins, log10cs2_bins, rsq_bins),
-    #                 axis_names=['cS1', 'log10_cS2', 'rsq'],
-    #                 # dtype=np.float32
-    #             )
-    #             hist.histogram = hist3d
 
-    #             # Capture the count for normalization before discarding hist_2d
-    #             n_for_norm = float(hist_2d.n)
+    # Producing a uniform rsq distribution
+    radius = 145. #cm
+    n_points = int(1e5)
+    
+    data_R = (np.random.rand(n_points) * radius**2)**0.5                    #n_points is the no. of points in our rsq distribution 
+    rsq = (data_R)**2
 
-    #             # Cleanup
-    #             del hist_1d, hist_2d, base2d, hist3d
-    #         else:
-    #             # No radius: keep the 2D histogram directly
-    #             hist = hist_2d
-    #             n_for_norm = float(hist.n)
+    hist_1d = Histdd(**hist_1d_args)
+    hist_1d.add(rsq)
+    hist_1d = hist_1d / hist_1d.n
 
-    #     elif mode == 'LEER':
-    #         import matplotlib.pyplot as plt
-    #         recoE = data['ces_er_equivalent'].values
-    #         hist_args = dict(
-    #             bins=(recoE_bins,),
-    #             axis_names=['recoE'],
-    #             # dtype=np.float32
-    #         )
-    #         hist = Histdd(**hist_args)
-    #         hist.add(recoE)
+    hist = Histdd(**hist_args)
 
-    #         # Optional: avoid plotting in production runs
-    #         # plt.figure()
-    #         # hist.plot()
-    #         # plt.close()
+    hist.histogram = np.array([accidentals_2d_hist * rsq_scaling for rsq_scaling in hist_1d.histogram])           #hist_2d.histogram is our histogram object
+    hist.histogram = np.transpose(hist.histogram, [1, 2, 0])
 
-    #         n_for_norm = float(hist.n)
-    #     else:
-    #         raise ValueError(f'Invalid mode {mode}.')
+    #Setting the rate of accidentals from the yaml paramters file
+    mu = parameters['accidentals'] # accidental /ty
 
-    #     # Now normalize and scale using mu without touching hist.n
-    #     mu = source.estimate_mu(n_trials=n_samples)
-    #     if n_for_norm > 0:
-    #         hist.histogram = mu * (hist.histogram / n_for_norm)
-    #     else:
-    #         # If no entries, keep zeros of the same shape
-    #         hist.histogram = np.zeros_like(hist.histogram, dtype=hist.histogram.dtype)
+    hist.histogram = mu * (hist.histogram / hist.n)
 
-    #     templates[k] = hist
-    #     del data
+    templates["accidentals"] = hist
 
+    ###
 
     # Different normalisation procedures
     if 'neutrons_LNGS' in templates:
         templates['neutrons_LNGS'] = templates['neutrons_LNGS'] / templates['neutrons_LNGS'].n * mus['CEvNS_other_LNGS'] * parameters['neutron']
+    #For the benchmark WIMP case
     if 'WIMP' in templates:
         templates['WIMP'] = templates['WIMP'] * (analysis_parameters["wimp_cross-section_benchmark"]["value"] / 1e-45)
 

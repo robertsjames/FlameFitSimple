@@ -73,3 +73,7 @@ if not os.path.exists(args.output):
 inference_helper.run_routine(num_toys=ntoys, output_dir=args.output,
                              mu_min=mu_min, mu_max=mu_max, n_mu=n_mu,
                              mode='discovery', vary_signal_dict=vary_signal_dict)
+
+### Addition June 2026
+
+# inference_helper.generate_toys_discovery(num_toys=ntoys, output_dir=args.output, mu_min=mu_min, mu_max=mu_max, n_mu=n_mu)

@@ -50,6 +50,38 @@ class InferenceHelper():
         pkl.dump(toy_data_B, open(f'{output_dir}/toy_data_B.pkl', 'wb'))
         pkl.dump(constraint_extra_args_B, open(f'{output_dir}/constraint_extra_args_B.pkl', 'wb'))
 
+
+    ### Addition June 2026
+
+    def generate_toys_discovery(self, output_dir='.', num_toys=100,
+                    background_sources=None, signal_sources=None, mu_min=0.1, mu_max=25., n_mu=30,):
+        if background_sources is None:
+            background_sources = self.background_sources
+        if signal_sources is None:
+            signal_sources = self.signal_sources
+
+        mus_test_dict = dict()
+        for signal_source in signal_sources:
+            mus_test_dict[signal_source] = np.geomspace(mu_min, mu_max, n_mu)
+            # mus_test_dict[signal_source] = 1
+
+        ts_eval_SB_toys = self.build_ts_eval(background_sources, signal_sources,
+                                            ntoys=num_toys)
+        simulate_dict_SB, toy_data_SB, constraint_extra_args_SB = ts_eval_SB_toys.run_routine(
+        mus_test=mus_test_dict,
+        generate_SB_toys=True,
+        mode='discovery',
+        vary_signal_dict=None
+        )
+
+        pkl.dump(simulate_dict_SB, open(f'{output_dir}/simulate_dict_SB.pkl', 'wb'))
+        pkl.dump(toy_data_SB, open(f'{output_dir}/toy_data_SB.pkl', 'wb'))
+        pkl.dump(constraint_extra_args_SB, open(f'{output_dir}/constraint_extra_args_SB.pkl', 'wb'))
+
+
+    ###
+
+
     def run_routine(self,
                     output_dir='.',
                     num_toys=100,

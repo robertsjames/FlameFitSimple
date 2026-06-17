@@ -10,6 +10,7 @@ Xe124 = Xe124
 Neutrons = neutrons_LNGS
 CEvNS_other = CEvNS_other_LNGS
 CEvNS_solar = CEvNS_solar
+accidentals = accidentals
 
 [signal_source_template_components]
 WIMP = WIMP
@@ -23,3 +24,4 @@ Xe124 = 0.20
 Neutrons = 0.20
 CEvNS_other = 0.195
 CEvNS_solar = 0.0397
+accidentals = 0.05

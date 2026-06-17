@@ -1,0 +1,1704 @@
+2026-06-12 09:02:22.260380: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260387: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260350: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260328: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260366: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260350: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260356: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260345: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260336: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260353: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260368: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260347: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260385: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260353: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260369: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260329: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260343: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260386: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260340: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260369: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260387: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260385: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260389: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260376: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260335: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260380: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260354: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260403: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260331: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260409: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260345: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260338: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260391: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260401: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260456: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260504: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260520: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260510: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260457: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260428: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260717: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260415: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260413: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260471: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260398: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260512: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260498: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260426: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260390: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260520: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260376: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260495: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260472: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260418: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260524: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260391: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260423: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260518: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260476: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260399: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260460: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260462: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260536: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260481: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260458: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260488: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260492: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260425: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260413: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260541: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260407: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260483: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260414: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260506: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260597: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260507: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260525: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260523: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260459: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260446: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260485: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260537: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260538: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260440: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260514: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260460: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260492: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260421: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260471: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260512: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260486: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260452: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260521: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260427: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260485: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260501: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260491: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260491: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260449: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-06-12 09:02:22.260505: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+2026-06-12 09:04:52.297779: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:52.299212: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:52.343402: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:52.345677: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:52.346705: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:52.575984: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:52.629179: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:52.679013: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:52.694769: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:52.830222: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:52.910203: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:52.923139: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:52.983311: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+2026-06-12 09:04:53.200745: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+2026-06-12 09:04:53.254492: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+2026-06-12 09:04:53.456796: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:53.463645: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:53.577241: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:53.935673: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:53.936385: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:54.176683: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:54.457096: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:54.521775: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:54.522461: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:54.593236: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:54.789881: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:54.911207: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:55.065836: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:55.185973: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:55.211465: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:55.418012: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+2026-06-12 09:04:55.765866: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+2026-06-12 09:04:56.000994: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+2026-06-12 09:04:56.584575: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:57.311731: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:57.319338: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:57.394072: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:57.689568: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:57.744716: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:57.776705: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:57.822961: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:57.916744: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:57.949111: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:58.067406: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:58.137508: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+2026-06-12 09:04:58.501229: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:58.529391: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:58.861526: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:59.857960: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:04:59.860500: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:00.073038: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:00.343733: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+2026-06-12 09:05:06.932693: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:06.957462: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:07.329474: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:07.667505: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+2026-06-12 09:05:09.159849: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:09.181410: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:09.183594: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:09.197106: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:09.337756: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:09.362676: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:09.487050: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:09.526757: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:09.774683: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:09.785239: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:09.816939: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:10.481842: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+2026-06-12 09:05:11.806083: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+/global/cfs/cdirs/lz/users/rory_m/.conda/envs/flamedisx_revamped/lib/python3.11/site-packages/wimprates/__init__.py:6: UserWarning: Default WIMP parameters are changed in accordance with https://arxiv.org/abs/2105.00599 (github.com/JelleAalbers/wimprates/pull/14)
+  warnings.warn(
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+2026-06-12 09:05:12.840140: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:12.895194: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:12.928467: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:12.946809: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:12.960109: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:13.073189: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:13.119672: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:13.131234: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:13.329133: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:13.533727: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:13.541769: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:13.552527: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:13.566366: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:13.568826: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:13.568876: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:13.687137: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:13.687359: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:13.699452: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+2026-06-12 09:05:13.818317: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:13.820427: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+2026-06-12 09:05:14.064349: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+2026-06-12 09:05:14.223783: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:14.230673: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+2026-06-12 09:05:14.311493: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:14.662705: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:14.712819: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:15.077215: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-06-12 09:05:15.184113: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+2026-06-12 09:05:15.851414: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+2026-06-12 09:05:15.905053: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+2026-06-12 09:05:16.403927: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 31, in <module>
+    likelihood_container = pkl.load(open(args.likelihood, 'rb'))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'likelihoods/accidentals/accidentals_200ty.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/analyses/wimp_sensitivity/../sensitivity/run_routine_sensitivity.py", line 33, in <module>
+    raise RuntimeError("Error opening likelihood container file")
+RuntimeError: Error opening likelihood container file
+srun: error: nid006892: task 66: Exited with exit code 1
+srun: Terminating StepId=54346091.0
+[2026-06-12T16:05:24.669] error: *** STEP 54346091.0 ON nid006892 CANCELLED AT 2026-06-12T16:05:24 DUE TO TASK FAILURE ***
+srun: error: nid006892: tasks 0-65,67-99: Exited with exit code 1

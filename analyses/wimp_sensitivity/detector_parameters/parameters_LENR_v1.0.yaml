@@ -48,7 +48,7 @@ parameters:
     unit: bar
     definition: pressure of GXe
   n_pmts:
-    value: 902
+    value: 2132
     unit: number
     definition: number of PMTs
   p_dpe: 
@@ -72,7 +72,7 @@ parameters:
     unit: probability
     definition: TODO, NEST string unclear, actual efficiency, can be used in lieu of POD threshold
   lce_configuration:
-    value: 60t
+    value: 80t
     description: LCE parameterization from https://github.com/FlamTeam/flamedisx/blob/RJ-XLZD_simple/flamedisx/xlzd/xlzd.py
 
 # Backgrounds
@@ -89,6 +89,10 @@ background_rates:
     value: 0.1
     unit: events/events
     definition: relative rate of neutrons to CEvNS
+  accidentals:
+    value: 1.0
+    unit: events/tonne year
+    definition: Expected number of accidental events in the detector volume
 
 # Analysis parameters
 wimp_analysis_parameters:
@@ -115,9 +119,9 @@ wimp_analysis_parameters:
   rsq_range:
     value:
       - 0.
-      - 21542.900625
+      - 21025.
     unit: cm^2
-    definition: Lower and upper range of r^2. Maximum value of r is 146.775 cm. See https://github.com/FlamTeam/flamedisx/blob/RJ-XLZD_simple/flamedisx/nest/config/xlzd.ini
+    definition: Lower and upper range of r^2. Maximum value of r is 145 cm
   rsq_bins:
     value: 51
     unit: number of bin edges
@@ -132,23 +136,15 @@ wimp_analysis_parameters:
     definition: number of PMTs needed to be hit in coincidence
   mass: 
     value: 
-      - 9
-      - 16
-      - 32
+      - 10
       - 40
-      - 65
-      - 129
-      - 361
-      - 508
-      - 5000
-
-
+      - 80
     unit: GeV/c2
     definition: WIMP mass tested
-  wimp_mass_benchmark: 
-    value: 2827
-    unit: GeV/c2
-    definition: Benchmark WIMP mass
+  # wimp_mass_benchmark: 
+  #   value: 2827
+  #   unit: GeV/c2
+  #   definition: Benchmark WIMP mass
   wimp_cross-section_benchmark:
     value: 2.05e-47
     unit: cm^2
