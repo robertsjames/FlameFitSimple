@@ -9,6 +9,8 @@ from flamedisx.xlzd import XLZDvNRSolarSource, XLZDvNROtherLNGSSource, XLZDvNROt
 from flamedisx.xlzd  import XLZDWIMPSource, XLZDEFTScalarO6Source
 from flamedisx.xlzd  import XLZDALPGalacticDMSource, XLZDHiddenPhotonSource
 
+
+
 from tqdm import tqdm
 from multihist import Histdd
 from itertools import product as iterproduct
@@ -236,17 +238,70 @@ def generate_template_set(mode, inference_type, signal_type, parameters, analysi
 
     ### Adding in accidentals pdf
 
-    pdf = np.load('/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/python_notebooks/ac_example_template.npz')
+    pdf = np.load('/global/cfs/cdirs/lz/users/rory_m/XLZD/FlameFitSimple/python_notebooks/ac_template_lz_digitised.npz')
 
-    accidentals_2d_hist = pdf["s1s2hist"]
+    hist_pdf = pdf["s1s2hist"]
+    s1_edges = pdf["s1binedges"]
+    s2_edges = pdf["s2binedges"]
+
+    # Flatten 2D histogram into probabilities
+    weights = hist_pdf.ravel()
+    prob = weights / weights.sum()
+
+    # Number of synthetic events to generate
+    n_points = int(1e5)
+
+    # Choose histogram bins according to their weights
+    flat_idx = np.random.choice(len(weights), size=n_points, p=prob)
+    s1_bin_idx, s2_bin_idx = np.unravel_index(flat_idx, hist_pdf.shape)
+
+    # Sample uniformly inside each selected bin
+    s1_samples = np.random.uniform(
+        s1_edges[s1_bin_idx],
+        s1_edges[s1_bin_idx + 1]
+    )
+
+    s2_samples = np.random.uniform(
+        s2_edges[s2_bin_idx],
+        s2_edges[s2_bin_idx + 1]
+    )
+
+    # Convert phd to phe
+
+    # p = XLZDSource(detector="xlzd")   
+    p = XLZDWIMPSource()
+    print(p.g2, 'g2 factor') 
+
+
+    s1c = s1_samples * 1.2
+
+    s2c = (10**s2_samples) # s2_samples was in log10 space, so we convert to phd
+    n_electrons = s2c/34.0 # the g2 of lz WS2024 was 34.0 phd/electron
+    n_phe = n_electrons * p.g2 * 1.2 # the g2 of xlzd (in units of phd/electron) * conversion of phd to phe
+
+    print(n_phe, 'n of phe')
+
+
+    # Back to the variables we want
+    cS1 = s1c
+    log10_cS2 = np.log10(n_phe)
+
+    print(log10_cS2, 'log10 cs2 space')
 
 
     # Producing a uniform rsq distribution
     radius = 145. #cm
-    n_points = int(1e5)
     
     data_R = (np.random.rand(n_points) * radius**2)**0.5                    #n_points is the no. of points in our rsq distribution 
     rsq = (data_R)**2
+
+    # 2d hist
+
+    accidentals_2d = Histdd(**hist_2d_args)
+    accidentals_2d.add(cS1, log10_cS2)
+
+    
+    # 1d hist
 
     hist_1d = Histdd(**hist_1d_args)
     hist_1d.add(rsq)
@@ -254,10 +309,10 @@ def generate_template_set(mode, inference_type, signal_type, parameters, analysi
 
     hist = Histdd(**hist_args)
 
-    hist.histogram = np.array([accidentals_2d_hist * rsq_scaling for rsq_scaling in hist_1d.histogram])           #hist_2d.histogram is our histogram object
+    hist.histogram = np.array([accidentals_2d.histogram * rsq_scaling for rsq_scaling in hist_1d.histogram])           #hist_2d.histogram is our histogram object
     hist.histogram = np.transpose(hist.histogram, [1, 2, 0])
 
-    #Setting the rate of accidentals from the yaml paramters file
+    #Setting the rate of accidentals from the yaml parameters file
     mu = parameters['accidentals'] # accidental /ty
 
     hist.histogram = mu * (hist.histogram / hist.n)

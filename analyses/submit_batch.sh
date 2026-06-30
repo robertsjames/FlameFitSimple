@@ -1,6 +1,6 @@
 #!/bin/bash
 #################
-#SBATCH -N 1 # number of nodes
+#SBATCH -N 1 # number of nodes, was 2 (June 2026)
 #SBATCH --ntasks-per-node=100 # tasks per node
 #SBATCH -C cpu # hardware architecture
 #SBATCH --time=01:00:00
@@ -21,6 +21,7 @@ export OMP_PROC_BIND=spread
 
 
 # module load python
-# conda activate flamedisx_test
+# conda activate flamedisx_revamped
 
 srun -c 2 --cpu-bind=cores $1
+

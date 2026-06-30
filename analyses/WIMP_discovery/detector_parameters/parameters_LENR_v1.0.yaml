@@ -72,7 +72,7 @@ parameters:
     unit: probability
     definition: TODO, NEST string unclear, actual efficiency, can be used in lieu of POD threshold
   lce_configuration:
-    value: 80t
+    value: 60t
     description: LCE parameterization from https://github.com/FlamTeam/flamedisx/blob/RJ-XLZD_simple/flamedisx/xlzd/xlzd.py
 
 # Backgrounds
@@ -90,7 +90,7 @@ background_rates:
     unit: events/events
     definition: relative rate of neutrons to CEvNS
   accidentals:
-    value: 0.1
+    value: 1.0
     unit: events/tonne year
     definition: Expected number of accidental events in the detector volume
 
@@ -108,7 +108,7 @@ wimp_analysis_parameters:
     definition: number of equidistant bin edges in cs1
   cs2_range:
     value:
-      - 2.5
+      - 3.
       - 4.
     unit: log10(cS2[phe])
     definition: log_10 of lower and upper range of cS2 range in photoelectrons (XENON scale of S1)
@@ -140,14 +140,45 @@ wimp_analysis_parameters:
   #   unit: GeV/c2
   #   definition: WIMP mass tested
   wimp_mass_benchmark: 
-    value: 2827
+    value: 10
     unit: GeV/c2
     definition: Benchmark WIMP mass
-  # wimp_cross-section_benchmark:
-  #   value: 9.00e-48
-  #   unit: cm^2
-  #   definition: Benchmark WIMP cross-section
+
+  # We need cross sections for 5 sigma at 800 ty exposure
+  # The bench mark cross section of 2.05e-47 takes us a lot above 5 sigma at 800 ty
+  # 1.63e-48 takes us quite below at 800 ty
+  # 9.00e-48 takes us quite above at 800 ty
+  # I suggest
+  # 2.00e-48
+  # 3.00e-48
+  # 4.00e-48
+  # 5.00e-49
+
+  # Now at 4 evts/ty, lets try:
+  # 1.00e-48
+  # 5.00e-48
+  # 1.00e-47
+  # 1.50e-47
   wimp_cross-section_benchmark:
-    value: 2.05e-47
+    value: 4.00e-48
     unit: cm^2
     definition: Benchmark WIMP cross-section
+
+
+# For 60t, 80t cryo, we'll try cross sections which are slightly lower than the 80t crossing points are from the neutron graph, it looks like exposure required is less
+# For 10 GeV, 4.0 evts/ty
+# 8.00e-48
+# 1.00e-47
+# 1.20e-47
+# 1.40e-47
+
+# For 10 GeV, 1.0 evts/ty
+# 4.00e-48
+# 6.00e-48
+# 8.0e-48
+# 1.0e-47
+
+
+#For 10 GeV, 3e-48 looks good
+# For 200 GeV, 1e-48 should be tested
+# For 2827 GeV, 2.05e-47

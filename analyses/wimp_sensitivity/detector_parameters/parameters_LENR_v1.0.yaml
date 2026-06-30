@@ -90,7 +90,7 @@ background_rates:
     unit: events/events
     definition: relative rate of neutrons to CEvNS
   accidentals:
-    value: 1.0
+    value: 4.0
     unit: events/tonne year
     definition: Expected number of accidental events in the detector volume
 
@@ -108,7 +108,7 @@ wimp_analysis_parameters:
     definition: number of equidistant bin edges in cs1
   cs2_range:
     value:
-      - 2.5
+      - 3
       - 4.
     unit: log10(cS2[phe])
     definition: log_10 of lower and upper range of cS2 range in photoelectrons (XENON scale of S1)
@@ -137,15 +137,15 @@ wimp_analysis_parameters:
   mass: 
     value: 
       - 10
-      - 40
-      - 80
+      - 100
+      - 1000
     unit: GeV/c2
     definition: WIMP mass tested
   # wimp_mass_benchmark: 
   #   value: 2827
   #   unit: GeV/c2
   #   definition: Benchmark WIMP mass
-  wimp_cross-section_benchmark:
-    value: 2.05e-47
-    unit: cm^2
-    definition: Benchmark WIMP cross-section
+  # wimp_cross-section_benchmark:
+  #   value: 2.05e-47
+  #   unit: cm^2
+  #   definition: Benchmark WIMP cross-section
